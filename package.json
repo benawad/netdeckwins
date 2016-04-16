@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "name": "stormpath-express-react-example",
+  "description": "A sample app demonstrating how to integrate Stormpath with React and Express.",
+  "homepage": "https://github.com/stormpath/stormpath-express-react-example",
+  "author": "Stormpath, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "express": "^4.13.3",
+    "express-stormpath": "^3.0.0",
+    "globals": "^8.16.0",
+    "history": "^1.17.0",
+    "morgan": "^1.6.1",
+    "react": "^0.14.5",
+    "react-document-title": "^2.0.1",
+    "react-dom": "^0.14.5",
+    "react-router": "^1.0.3",
+    "react-stormpath": "^1.0.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
